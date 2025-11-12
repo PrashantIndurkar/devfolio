@@ -22,7 +22,7 @@ export async function GET() {
     card.addPhoto(photo.image, photo.mine);
   }
 
-  if (USER.jobs.length > 0) {
+  if (USER.jobs && USER.jobs.length > 0) {
     const company = USER.jobs[0];
     card.addCompany(company.company).addJobtitle(company.title);
   }
