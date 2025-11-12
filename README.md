@@ -5,9 +5,9 @@ A minimal, pixel-perfect dev portfolio, component registry, and blog to showcase
 Check out the live site: [prashantindurkar.in](https://prashantindurkar.in)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/img/portfolio-dark-ss.png">
-  <source media="(prefers-color-scheme: light)" srcset="/img/portfolio-light-ss.png">
-  <img src="/img/portfolio-light-ss.png" alt="Screenshot">
+  <source media="(prefers-color-scheme: dark)" srcset="./public/img/portfolio-dark-ss.png">
+  <source media="(prefers-color-scheme: light)" srcset="./public/img/portfolio-light-ss.png">
+  <img src="./public/img/portfolio-light-ss.png" alt="Screenshot">
 </picture>
 
 ## Overview
