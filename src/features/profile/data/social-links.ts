@@ -9,7 +9,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     rounded: true,
   },
   {
-    icon: "/img/linkedin.webp",
+    icon: "/img/Linkedin.webp",
     title: "LinkedIn",
     description: "prashantindurkar",
     href: "https://www.linkedin.com/in/prashant-indurkar-19a447150/",
