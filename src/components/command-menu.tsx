@@ -48,11 +48,11 @@ const MENU_LINKS: CommandLinkItem[] = [
     href: "/",
     iconImage: "/img/profile.jpg",
   },
-  // {
-  //   title: "Components",
-  //   href: "/components",
-  //   icon: Icons.react,
-  // },
+  {
+    title: "Components",
+    href: "https://components.prashantindurkar.in/",
+    icon: Icons.react,
+  },
 ];
 
 const DEVFOLIO_LINKS: CommandLinkItem[] = [

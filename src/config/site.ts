@@ -19,9 +19,10 @@ export const MAIN_NAV: NavItem[] = [
     title: "Devfolio",
     href: "/",
   },
-  // {
-  //   title: "Components",
-  //   href: "/components",
+  {
+    title: "Components",
+    href: "https://components.prashantindurkar.in/",
+  },
   // },
   // {
   //   title: "Blog",
