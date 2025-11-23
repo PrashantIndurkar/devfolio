@@ -2,6 +2,37 @@ import type { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
   {
+    id: "ocean-ui-component-library",
+    title: "Ocean UI Component Library",
+    period: {
+      start: "11.2025",
+    },
+    link: "https://components.prashantindurkar.in",
+    skills: [
+      "SolidJS",
+      "Solid-UI",
+      "TypeScript",
+      "TailwindCSS",
+      "Ark UI",
+      "Vue",
+      "Svelte",
+      "React",
+      "Next.js",
+      "Vercel",
+      "ArchitectUI",
+      "Component Library",
+    ],
+    description: `Ocean UI is a collection of Beautiful UI components for your favorite frameworks. 
+  
+- It supports almost all frameworks and libraries. Like React, Next.js, SolidJS, Vue, Svelte.
+- Its build on top of Ark UI library.
+- Its supports copy and paste code from the website to your project similar to shadcn/ui.
+`,
+    image: "/img/projects/ocean-ui.png",
+    imageDark: "/img/projects/ocean-ui-dark.png",
+    isExpanded: true,
+  },
+  {
     id: "shadcn-solid-landing-page",
     title: "shadcn landing page solidjs",
     period: {
@@ -12,12 +43,13 @@ export const PROJECTS: Project[] = [
     skills: ["SolidJS", "Solid-UI", "TypeScript", "TailwindCSS"],
     description: `This is a SolidJS conversion of the original landing page template.
 
-The original design and UI were created by [Leo Miranda](https://github.com/leoMirandaa/shadcn-landing-page) for multiple tech stacks (React, Next.js, Vue, Svelte). This version has been converted for the SolidJS community. It is open-source and free to use.`,
+- The original design and UI were created by [Leo Miranda](https://github.com/leoMirandaa/shadcn-landing-page) for multiple tech stacks (React, Next.js, Vue, Svelte). 
+- This version has been converted for the SolidJS community. 
+- It is open-source and free to use.`,
     image: "/img/projects/shadcn-landing-light.png",
     imageDark: "/img/projects/shadcn-landing-dark.png",
     isExpanded: true,
   },
-
   {
     id: "pure-beauty",
     title: "Beauty Tech E-Commerce",
@@ -35,7 +67,10 @@ The original design and UI were created by [Leo Miranda](https://github.com/leoM
       "Framer Motion",
       "Sanity.io",
     ],
-    description: `Full-Stack Application with Next.js for the Front-End and Sanity.io as a Back-End. It has 6+ pages including Home, Products, Product Details, Checkout, Stripe payment, and Order history page. It's a Beauty Tech cosmetic eCommerce App.`,
+    description: `Full-Stack Application with Next.js for the Front-End and Sanity.io as a Back-End. 
+    
+- It has 6+ pages including Home, Products, Product Details, Checkout, Stripe payment, and Order history page. 
+- It's a Beauty Tech cosmetic eCommerce App.`,
     image: "/img/projects/pureBeauty.png",
   },
   {
@@ -53,7 +88,9 @@ The original design and UI were created by [Leo Miranda](https://github.com/leoM
       "Git & Github",
       "Vercel",
     ],
-    description: `Clone are almost similar to the original sites achieved using TailwindCSS Grid Flex-box, Media Queries, and Configuration. Everything is fully Responsive.`,
+    description: `Clone are almost similar to the original sites achieved using TailwindCSS Grid Flex-box, Media Queries, and Configuration. 
+    
+- Everything is fully Responsive.`,
     image: "/img/projects/spotify.png",
   },
   {
@@ -72,7 +109,11 @@ The original design and UI were created by [Leo Miranda](https://github.com/leoM
       "TailwindCSS",
       "Vercel",
     ],
-    description: `It's a movie time app. It has a list of movies and their ratings and lot of details about movie. It also has a search bar to search for movies. Fun fact: this app is made with my friend to learn how real world app is made in team environment.`,
+    description: `It's a movie time app. 
+    
+- It has a list of movies and their ratings and lot of details about movie. 
+- It also has a search bar to search for movies. 
+- Fun fact: this app is made with my friend to learn how real world app is made in team environment.`,
     image: "/img/projects/movieTime.png",
   },
   {
@@ -91,12 +132,17 @@ The original design and UI were created by [Leo Miranda](https://github.com/leoM
       "Git & Github",
       "Vercel",
     ],
-    description: `Github Clone are almost similar to the original sites achieved using TailwindCSS Grid Flex-box, Media Queries, and Configuration. Everything is fully Responsive.`,
+    description: `Github Clone are almost similar to the original sites achieved using TailwindCSS Grid Flex-box, Media Queries, and Configuration. 
+    
+- Everything is fully Responsive.
+
+- Its pixel perfect clone of the original site.`,
     image: "/img/projects/github.png",
   },
   {
     id: "ping-media",
-    title: "Social Media for developers and designers",
+    title:
+      "Social Media for developers and designers (Not working on it anymore)",
     period: {
       start: "05.2024",
       end: "06.2024",
@@ -111,7 +157,12 @@ The original design and UI were created by [Leo Miranda](https://github.com/leoM
       "Tanstack-query",
       "NextAuth",
     ],
-    description: `Open-source full stack social network and job hunting platform for developers and designers to connect and have fun. Designed and implemented a comprehensive Social Network website with robust login and register functionalities. Ensured accurate error handling, data security, and privacy by integrating protected routes. Optimized code structure by splitting it into reusable components, facilitating easy integration and maintenance across the project.`,
+    description: `Open-source full stack social network and job hunting platform for developers and designers to connect and have fun. 
+    
+- Designed and implemented a comprehensive Social Network website with robust login and register functionalities. 
+- Ensured accurate error handling, data security, and privacy by integrating protected routes. 
+- Optimized code structure by splitting it into reusable components, facilitating easy integration and maintenance across the project.
+`,
     image: "/img/projects/pingMedia.png",
   },
   {
