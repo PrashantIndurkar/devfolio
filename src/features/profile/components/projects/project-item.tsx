@@ -14,6 +14,7 @@ import {
 import { Tag } from "@/components/ui/tag";
 
 import type { Project } from "../../types/projects";
+import { ProjectGithubButton } from "./project-github-button";
 import { ProjectLinkButton } from "./project-link-button";
 import { ProjectTooltipWrapper } from "./project-tooltip-wrapper";
 
@@ -57,6 +58,9 @@ export function ProjectItem({
         </dl>
       </div>
       <div className="ml-auto flex shrink-0 items-center gap-2">
+        {project.githubLink && (
+          <ProjectGithubButton githubLink={project.githubLink} />
+        )}
         {project.link && <ProjectLinkButton link={project.link} />}
 
         <div

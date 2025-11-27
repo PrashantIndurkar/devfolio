@@ -8,6 +8,7 @@ export const PROJECTS: Project[] = [
       start: "11.2025",
     },
     link: "https://components.prashantindurkar.in",
+    githubLink: "https://github.com/PrashantIndurkar/Ocean-ui",
     skills: [
       "SolidJS",
       "Solid-UI",
@@ -40,6 +41,7 @@ export const PROJECTS: Project[] = [
       end: "11.2025",
     },
     link: "https://shadcn-solid-landing-page.vercel.app/",
+    githubLink: "https://github.com/PrashantIndurkar/shadcn-solid-landing-page",
     skills: ["SolidJS", "Solid-UI", "TypeScript", "TailwindCSS"],
     description: `This is a SolidJS conversion of the original landing page template.
 
@@ -58,6 +60,7 @@ export const PROJECTS: Project[] = [
       end: "12.2023",
     },
     link: "https://pure-beauty.vercel.app/",
+    githubLink: "https://github.com/PrashantIndurkar/pureBeauty",
     skills: [
       "TypeScript",
       "Next.js",
@@ -74,12 +77,49 @@ export const PROJECTS: Project[] = [
     image: "/img/projects/pureBeauty.png",
   },
   {
+    id: "atom-weather-app",
+    title: "Atom Weather App",
+    period: {
+      start: "10.2025",
+      end: "11.2025",
+    },
+    link: "https://atmo.prashantindurkarr.workers.dev/",
+    githubLink: "https://github.com/PrashantIndurkar/weather-app",
+    skills: [
+      "NextJS",
+      "Next-Themes",
+      "TypeScript",
+      "TailwindCSS",
+      "Shadcn/UI",
+      "wangle",
+      "cloudflare",
+      "Workers",
+    ],
+    description: `Atom Weather App is a weather app that uses the OpenWeatherMap API to get the weather data for a given location. 
+- Its smart weather app that changes the theme of the app based on the weather data like temperature, weather condition, etc.
+- Its most modern and beautiful weather app out there you find. It has modern Apple liquid glass effect.
+- Its fully responsive and works on all devices.
+- It uses two APIs to get the weather data for a given location.
+    -  WEATHERAPI & OPENWEATHER is used to get the weather data for a given location.
+    - Open-Meteo API is used to get the location of the user.
+  - User can switch the API provider from app settings.
+- It uses the TailwindCSS library to style the app.
+- It uses the Shadcn/UI library to style the app.
+- It uses the Workers library to run the app on the edge.
+- It uses the Cloudflare library to run the app on the edge.
+`,
+    image: "/img/projects/atmo-weather.png",
+    imageDark: "/img/projects/atmo-weather.png",
+    isExpanded: true,
+  },
+  {
     id: "spotify-ui-clone",
     title: "Spotify Desktop UI Clone",
     period: {
       start: "08.2022",
     },
     link: "https://spotify-ui-puce.vercel.app/",
+    githubLink: "https://github.com/PrashantIndurkar/Spotify-Ui",
     skills: [
       "React.js",
       "TailwindCSS",
@@ -101,6 +141,7 @@ export const PROJECTS: Project[] = [
       end: "09.2022",
     },
     link: "https://movie-time-navy.vercel.app/",
+    githubLink: "https://github.com/PrashantIndurkar/movie-time",
     skills: [
       "TypeScript",
       "Next.js",
@@ -124,6 +165,7 @@ export const PROJECTS: Project[] = [
       end: "12.2022",
     },
     link: "https://github-repo-ui-clone.vercel.app/",
+    githubLink: "https://github.com/PrashantIndurkar/github-repo-ui-clone",
     skills: [
       "React.js",
       "TailwindCSS",
@@ -148,6 +190,7 @@ export const PROJECTS: Project[] = [
       end: "06.2024",
     },
     link: "https://ping-media.vercel.app/",
+    githubLink: "https://github.com/PrashantIndurkar/ping.media",
     skills: [
       "TypeScript",
       "NextJs",
@@ -172,6 +215,7 @@ export const PROJECTS: Project[] = [
       start: "10.2022",
     },
     link: "https://reddit-ish.vercel.app/",
+    githubLink: "https://github.com/PrashantIndurkar/reddit-ish",
     skills: [
       "TypeScript",
       "NEXT.js",
